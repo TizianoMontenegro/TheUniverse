@@ -1,0 +1,84 @@
+*{box-sizing: border-box; font-family: sans-serif;}
+body{
+    margin: 0; 
+    overflow-x: hidden;
+    background-image: url("./images/stars.jpg");
+    background-size: contain;
+}
+main{
+    width: 100%;
+    margin-top: 30em;
+}
+.sun{
+    position: absolute;
+    left: -6px;
+    top: 0;
+}
+.h1{
+    color: #fff;
+    padding-bottom: 3em;
+    font-size: 4em;
+    letter-spacing: .3em;
+    text-align: center;
+}
+img{max-width: 100%;}
+.container{
+    position: relative;
+    height: 800vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .item{
+    position: absolute;
+    width: 300px;
+    opacity: 0;
+}
+
+.container .spacecraft{
+    top: 0;
+    width: 300px;
+    height: 300px;
+    transform: rotate(135deg);
+    opacity: 1;
+}
+.container .item1{
+    top: 100vh;
+    right: 20vw;
+    width: 200px;
+}
+.container .item2{
+    top: 100vh;
+    left: 10vw;
+}
+.container .item3{
+    top: 100vh;
+    right: 10vw;
+    width: 300px;
+}
+.container .item4{
+    top: 100vh;
+    left: 10vw;
+    width: 380px;
+}
+.container .item5{
+    top: 100vh;
+    right: 0;
+    width: 560px
+}
+.container .item6{
+    top: 100vh;
+    right: 0;
+    width: 600px;
+}
+.container .item7{
+    top: 100vh;
+    width: 450px
+}
+.container .item8{
+    top: 100vh;
+    right: 17vw;
+}
